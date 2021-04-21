@@ -1,0 +1,110 @@
+1 = Kullanıcının Girdiği 3 Sınav Notunun ortalamasını alan program
+
+not1 = int(input("1.notunuzu giriniz :"))
+
+not2 = int(input("2.notunuzu giriniz :"))
+
+not3 = int(input("3.notunuzu giriniz :"))
+
+print((not1+not2+not3) /3)
+
+
+
+----------------------------------------------------------------
+2 = Dikdörtgenin alanını ve çevresini hesaplayan program
+
+
+uzun = int(input("uzun kenarı giriniz :"))
+kısa = int(input("kısa kenarı giriniz :"))
+
+
+
+print("dikdörgenin alanı :", uzun * kısa, "dikdörgenin çevresi :", (uzun + kısa) * 2)
+
+
+
+----------------------------------------------------------------
+3 = Girilen sayının karesini ekrana yazdıran program
+
+
+sayi =int(input("sayi giriniz :"))
+
+print(sayi,"sayısının karesi",sayi*sayi,"dir")
+
+
+----------------------------------------------------------------
+4 = Kullanıcıdan isim ve doğum tarihi alıp, bunları ekrana yazdıran program
+
+
+
+isim=str(input("adınızı giriniz :"))
+
+tarih=int(input("dogum tarihini giriniz :"))
+
+print("merhaba",isim,"yaşınız",2021-tarih,"dir")
+
+
+
+----------------------------------------------------------------
+5 = Kullanıcıdan isim ve kaç yıl kitap okuduğunu alıp, bunları ekrana yazdıran program
+
+
+
+isim=str(input("adınızı giriniz :"))
+
+kitap=int(input("bu yıl kaç kitap okudunuz? :"))
+
+print(isim,"bu yıl",kitap,"okudu")
+
+
+----------------------------------------------------------------
+6 = Listedeki haftanın günlerini ekrana yazdıran program
+
+
+gunler=["pazartesi","salı","çarsamba","perşembe","cuma","cumartesi","pazar"]
+
+for x in gunler:
+
+    print(x)
+
+----------------------------------------------------------------
+7 = Listedeki en sevdiğiniz 3 meyveyi ekrana yazdıran program
+
+
+
+meyveler=["muz","çilek","portakal"]
+
+for x in meyveler:
+
+    print(x)
+
+
+----------------------------------------------------------------
+8 = Listedeki pi sayısı, inch biriminin cm karşılığı, mikroişlemcilerin kısaltması, kullandığınız işletim sisteminin adı, 48 bitin 
+byte olarak karşılığını yazdıran program
+
+liste =["3.14","2,54"," µP","windows 10","384"]
+
+for x in liste:
+
+    print(x)
+
+
+
+----------------------------------------------------------------
+9 = Dönüşüm Değerleri
+
+int(2.54) = 2
+
+float(6) = 6.0
+
+str(1920) = "1920"
+
+int("500") = 500
+
+
+
+
+
+
+
